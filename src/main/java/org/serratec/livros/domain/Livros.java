@@ -13,7 +13,6 @@ import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 
 @Entity
-@Valid
 @Table (name = "livros")
 
 public class Livros {
@@ -33,6 +32,7 @@ public class Livros {
 	private Long qtdPagina;
 	
 	@Embedded
+	@Valid
 	private Publicacao publicacao;
 	
 	public Long getId() {
