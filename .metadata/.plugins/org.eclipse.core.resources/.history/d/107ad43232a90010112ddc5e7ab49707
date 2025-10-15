@@ -1,0 +1,5 @@
+package org.serratec.livros.exceptions;
+
+public class ErroResposta {
+
+}

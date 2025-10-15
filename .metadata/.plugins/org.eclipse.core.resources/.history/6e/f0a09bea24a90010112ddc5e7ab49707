@@ -1,0 +1,6 @@
+package org.serratec.livros.repository;
+
+public interface livrosRepository {
+	
+
+}

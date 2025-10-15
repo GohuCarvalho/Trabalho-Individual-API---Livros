@@ -1,0 +1,16 @@
+package org.serratec.livros.controller;
+
+import org.serratec.livros.repository.LivrosRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping ("/livros")
+public class livrosController {
+	
+	@Autowired
+	LivrosRepository livrosRepository;
+	
+
+}
